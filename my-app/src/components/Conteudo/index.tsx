@@ -1,8 +1,32 @@
-import imgQuadrado from "../../img/quadrado.png"
+import { useState } from "react";
+import imgQuadrado from "../../img/quadrado.png";
 
 export default function Conteudo() {
+
+    let comum:number = 0;
+
+    function incrementaComum(){
+        comum = comum + 1;
+        console.log("Valor de comum:",comum);
+    }
+
+    const[estado,setEstado] = useState<number>(0);
+    
+    function incrementaEstado(){
+        setEstado((anterior)=> anterior + 1);
+        console.log("Valor do estado:",estado);
+    }
+
+    document.title = "Valor do estado: " + estado.toString();
+
     return (
         <main>
+            <div>
+                <button onClick={incrementaComum}>Aumenta Comum - {comum}</button>
+            </div>
+            <div>
+                <button onClick={incrementaEstado}>Aumenta estado - {estado}</button>
+            </div>
             <section>
             <h2>Imagem com referência externa</h2>
 
