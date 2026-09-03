@@ -395,8 +395,6 @@ git commit -m "feat: adiciona componentes e favicon"
 
 Publique as alterações:
 
-```bash
-
 ---
 
 # Aula — 3 de setembro de 2026
