@@ -1,5 +1,6 @@
 import { useState } from "react";
 import imgQuadrado from "../../img/quadrado.png"
+import Lampada from "../Lampada";
 
 export default function Conteudo() {
 
@@ -67,6 +68,11 @@ export default function Conteudo() {
 
             </section>
 
+            <section>
+
+                <Lampada />
+
+            </section>
         </main>
     )
 }
