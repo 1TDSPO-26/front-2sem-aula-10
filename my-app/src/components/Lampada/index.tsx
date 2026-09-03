@@ -32,7 +32,11 @@ export default function Lampada() {
 
                 <img src={lampadaComumAcesa ? "images/lampada-acesa.png" : "images/lampada-apagada.png"}
                     alt={lampadaComumAcesa ? "Lâmpada controlada por variável comum acesa" : "Lâmpada controlada por variável comum apagada"}
-                    width="250" />
+                    width="150" />
+
+                <div>
+                    <button onClick={alternarVariavelComum} type="button">Alternar variável comum</button>
+                </div>
             </section>
 
             <div>
