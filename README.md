@@ -1,4 +1,4 @@
-# Aula — 8 de setembro de 2026
+# Aula — 3 de setembro de 2026
 # Exercício — Lâmpada: variável comum versus `useState`
 
 ## Objetivo
