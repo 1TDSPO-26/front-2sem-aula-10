@@ -1,5 +1,6 @@
 import { useState } from "react";
 import imgQuadrado from "../../img/quadrado.png";
+import Lampada from "../Lampada";
 
 export default function Conteudo() {
 
@@ -27,6 +28,9 @@ export default function Conteudo() {
             <div>
                 <button onClick={incrementaEstado}>Aumenta Estado - {estado}</button>
             </div>
+
+            <Lampada />
+
             <section>
                 <h2>Conteúdo aleatório</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est eaque recusandae ea magni asperiores, in harum illum rerum iste tenetur, officiis ducimus necessitatibus vero maxime reprehenderit iure officia corporis maiores!</p>
