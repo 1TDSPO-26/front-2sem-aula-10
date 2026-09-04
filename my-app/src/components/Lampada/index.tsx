@@ -39,14 +39,17 @@ export default function Lampada() {
                 </div>
             </section>
 
-            <div>
-                <figure>
-                    <img src={lampadaStateAcesa ? "/images/lampada-acesa.png" : "/images/lampada-apagada.png"}
-                        alt={lampadaStateAcesa ? "Lâmpada acesa!" : "Lâmpada apagada!"} width="150" />
-                    <figcaption>{lampadaStateAcesa ? "Lâmpada acesa!" : "Lâmpada apagada!"}</figcaption>
-                    <button onClick={alternarUseState}>{lampadaStateAcesa ? "APAGAR" : "ACENDER"}</button>
-                </figure>
-            </div>
+            <section>
+                <h2>Lâmpada com useState</h2>
+                <div>
+                    <figure>
+                        <img src={lampadaStateAcesa ? "/images/lampada-acesa.png" : "/images/lampada-apagada.png"}
+                            alt={lampadaStateAcesa ? "Lâmpada acesa!" : "Lâmpada apagada!"} width="150" />
+                        <figcaption>{lampadaStateAcesa ? "Lâmpada acesa!" : "Lâmpada apagada!"}</figcaption>
+                        <button onClick={alternarUseState}>{lampadaStateAcesa ? "APAGAR" : "ACENDER"}</button>
+                    </figure>
+                </div>
+            </section>
         </main>
     )
 }
