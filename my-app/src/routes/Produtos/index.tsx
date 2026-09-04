@@ -3,7 +3,7 @@ export default function Produtos() {
   return (
     <main>
         <h2>
-        Produtos
+            Produtos
         </h2>
     </main>
   )
